@@ -1,0 +1,28 @@
+{
+    "name": "sunnyr/sms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masoud Seraj",
+            "email": "masoud.seraj.1991@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sunnyr\\Sms\\": "src/",
+            "Sunnyr\\Sms\\Database\\Factories\\": "database/factories",
+            "Sunnyr\\Sms\\Database\\Seeders\\": "database/seeders",
+            "Sunnyr\\Sms\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sunnyr\\Sms\\SmsServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+
+    "minimum-stability": "dev"
+}
